@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viet's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <!-- Sidebar -->
+    <button id="menu-btn"><i class="fas fa-bars"></i></button>
+
+    <nav class="sidebar">
+
+        <div class="logo">
+            <span>PORTFOLIO</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i> <span>Projects</span></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+        </div>
+
+    </nav>
+
+    <!-- Right Controls -->
+
+    <div class="controls">
+        <div class="theme-panel">
+
+            <button id="colorToggle" class="control-btn">
+                <i class="fas fa-palette"></i>
+            </button>
+
+            <div class="color-options">
+
+                <span class="color-btn" data-color="#3b82f6"></span>
+                <span class="color-btn" data-color="#ff6b00"></span>
+                <span class="color-btn" data-color="#ec4899"></span>
+                <span class="color-btn" data-color="#8b5cf6"></span>
+                <span class="color-btn" data-color="#22c55e"></span>
+
+            </div>
+
+        </div>
+        <button id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Main -->
+
+    <main>
+        <!-- HOME -->
+        <section id="home" class="home">
+            <div class="home-content">
+                <h3>Hello, I'm</h3>
+                <h1>
+                    <span id="typing"></span>
+                </h1>
+                <h2>
+                    I'm a <span class="accent">BSIT Student</span>
+                </h2>
+                <p>
+                    Passionate about building responsive websites,
+                    modern user interfaces, and web applications
+                    that provide excellent user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">
+                        About Me
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-image">
+
+                <div class="image-box">
+
+                    <img src="img/mypic.jfif" alt="Profile">
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ABOUT -->
+        <section id="about" class="about">
+
+            <h2 class="section-title"><span>About Me</span></h2>
+
+            <div class="about-grid">
+
+                <!-- INTRO -->
+                <div class="about-card intro-card">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I am a BSIT student entering 3rd year, passionate about web development and building responsive,
+                        user-friendly websites. I enjoy turning ideas into functional web applications using HTML, CSS,
+                        JavaScript, PHP, and database systems.
+                    </p>
+
+                    <div class="info">
+                        <p><strong>Age:</strong> 20</p>
+                        <p><strong>Location:</strong> Panabo City, Philippines</p>
+                        <p><strong>Email:</strong> jovietgetalla02@email.com</p>
+                    </div>
+                </div>
+
+                <!-- EDUCATION -->
+                <div class="about-card">
+                    <h3>Education Timeline</h3>
+
+                    <div class="timeline">
+
+                        <div class="timeline-item">
+                            <h4>1st Year College</h4>
+                            <p>Java Fundamentals</p>
+                            <p>HTML Web Development</p>
+                            <p>Database Fundamentals</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4>2nd Year College</h4>
+                            <p>JavaScript Programming</p>
+                            <p>Bootstrap Responsive Design</p>
+                            <p>PHP Backend Development</p>
+                            <p>MySQL Database Integration</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4>3rd Year (Upcoming)</h4>
+                            <p>Advanced IT Subjects</p>
+                            <p>Improving Web Development Skills</p>
+                            <p>Exploring Modern Frameworks</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- WHAT I CAN DO -->
+                <div class="about-card">
+                    <h3>What I Can Do</h3>
+                    <ul>
+                        <li>Create responsive websites using HTML, CSS, and Bootstrap</li>
+                        <li>Build interactive features using JavaScript</li>
+                        <li>Develop basic web applications using PHP & MySQL</li>
+                        <li>Understand Java programming fundamentals</li>
+                        <li>Handle basic CRUD database operations</li>
+                    </ul>
+                </div>
+
+                <!-- CURRENT FOCUS -->
+                <div class="about-card">
+                    <h3>Current Focus</h3>
+                    <p>
+                        I am currently improving my web development skills, focusing on building responsive and dynamic
+                        websites while exploring modern frameworks and backend development concepts.
+                    </p>
+
+                    <h3>Goals</h3>
+                    <p>
+                        My goal is to become a full-stack web developer and create efficient, user-friendly
+                        applications.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--skills-->
+
+        <section id="skills">
+
+            <h2 class="section-title"><span>Skills</span></h2>
+
+            <div class="skills-wrapper">
+
+                <!-- FRONTEND -->
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+
+                <!-- BACKEND -->
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>PHP</span>
+                        <span>Java (Basics)</span>
+                    </div>
+                </div>
+
+                <!-- DATABASE -->
+                <div class="skill-card">
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>CRUD Operations</span>
+                    </div>
+                </div>
+
+                <!-- OTHER -->
+                <div class="skill-card">
+                    <h3>Other Skills</h3>
+                    <div class="skill-tags">
+                        <span>Responsive Design</span>
+                        <span>UI Basics</span>
+                        <span>Problem Solving</span>
+                        <span>Git Basics</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+
+            <h2 class="section-title"><span>Projects</span></h2>
+
+            <div class="project-grid">
+
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/URSAFE A CAMPUS-BASED PERSONAL STORAGE WEB APPLICATION.jpg" alt="URSAFE Project">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>URSAFE - Personal Storage Web App</h3>
+                        <p>A campus-based web application for secure personal file storage using HTML, CSS, and
+                            JavaScript.</p>
+
+                        <div class="tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View</a>
+                            <a href="#" class="btn-small-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/710536672_972829912019037_5924311516179674451_n.png" alt="Findr Project">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Findr</h3>
+                        <p>A PHP and MySQL-based system for managing and retrieving lost items efficiently.</p>
+
+                        <div class="tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View</a>
+                            <a href="#" class="btn-small-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Dashboard UI">
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Dashboard UI</h3>
+                        <p>Simple admin dashboard interface designed for data visualization and management.</p>
+
+                        <div class="tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>UI Design</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="btn-small">View</a>
+                            <a href="#" class="btn-small-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <h2 class="section-title"><span>Contact</span> Me</h2>
+
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <p>+63 912 345 6789</p>
+
+                </div>
+                <div>
+                    <i class="fas fa-location-dot"></i>
+                    <p>Panabo City,Philippines</p>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <p>jovietgetalla02@email.com</p>
+                </div>
+
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Message"></textarea>
+                <button class="btn">Send Message</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
